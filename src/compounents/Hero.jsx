@@ -6,8 +6,8 @@ const Hero = props =>{
     return (
         <React.Fragment>
             <div className="Hero">
-                <div className="Hero_color" style={{height: props.h}}></div>
-                <div className="Hero_img" style={{height: props.h}}>
+                <div className="Hero__color" style={{height: props.h}}></div>
+                <div className="Hero__img" style={{height: props.h}}>
                     <img src={HeroImage} alt="hero_image" />
                 </div>
             </div>

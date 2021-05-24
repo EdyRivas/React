@@ -14,7 +14,7 @@ const Main = props => {
                 <Hero h={"88vh"}></Hero>
             </div>
         </React.Fragment>
-    )
+    );
 }
 
 export default Main 
