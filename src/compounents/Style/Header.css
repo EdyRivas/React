@@ -3,11 +3,12 @@
     align-content: center;
     height: 60px;
     width: 100%;
-    border-bottom: 6px solid rgb(255, 43, 227);
-    background-color: rgb(111, 40, 204);
+    border-bottom: 6px solid rgb(179, 22, 211);
+    background-color: rgb(37, 7, 75);
 }
 
 .Header img{
     margin:  12px 0 10px 20px;
     height: 30px;
+    background-color: rgb(229, 148, 253);
 }
