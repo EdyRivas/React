@@ -13,6 +13,8 @@ function App() {
     </React.Fragment>
   );
 }
+export default App;
+
 {/*<Badge 
         Header_p={"https://fondosmil.com/fondo/50457.jpg"}
         picture={"https://pm1.narvii.com/7678/43da254e801715662b2379bd2ed14b61d7429051r1-736-732v2_00.jpg"}
@@ -25,5 +27,4 @@ function App() {
       ></Badge>*/}
 {/*<Main title={"Welcome"}></Main> */}
 
-export default App;
  
