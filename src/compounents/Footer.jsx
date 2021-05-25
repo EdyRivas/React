@@ -5,7 +5,7 @@ const Footer = () =>{
     return(
         <React.Fragment>
             <div className="Footer">
-                <p>example made reactjs @TIDBIS51M</p>
+                <p> Example made reactjs @TIDBIS51M</p>
             </div>
         </React.Fragment>
     );
