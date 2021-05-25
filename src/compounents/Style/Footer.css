@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     color: honeydew;
-    background-color: teal;
-
+    border-top: 6px solid rgb(179, 22, 211);
+    background-color: rgb(37, 7, 75);
     position: absolute;
     bottom: 0;
     z-index: 100;
