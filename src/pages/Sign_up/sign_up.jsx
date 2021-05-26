@@ -1,10 +1,12 @@
 import React from "react"
 import "./sign_up.css"
+import Hero from "../../compounents/Hero"
 
 class Sign_up extends React.Component{
     render(){
         return(
             <React.Fragment> 
+            <Hero h={"5vh"}></Hero>
             <div className="Back">
                  <div className="sign_M">  
                      <div className="sign_f m-5">
