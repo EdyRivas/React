@@ -6,6 +6,7 @@ class Login extends React.Component{
     render(){
         return(
             <React.Fragment> 
+                <Hero h={"15vh"}></Hero>    
                 <div className="Login_M">  
                     <div className="Login_f m-5">
                         <img src="https://image.flaticon.com/icons/png/512/4710/4710741.png" alt="logito" />
