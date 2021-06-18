@@ -1,7 +1,9 @@
 import React, {Component} from "react"
+import Footer from "../compounents/Footer"
 import HeaderBackground from '../images/Badge_header.jpg'
 import ProfilePic from '../images/profile.jpg'
 import "./Style/Badge.css"
+
 
 class Badge extends Component{
     render(){
@@ -35,6 +37,7 @@ class Badge extends Component{
                     </div>
                 </div>
             </div>
+            <Footer s={{position: "relative"}}></Footer>
         </React.Fragment>);
     }
 }

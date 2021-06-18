@@ -10,7 +10,7 @@ class NewBadge extends React.Component{
         loading : false,
         errors: null,
         form:{
-            Header_p: "",
+            Header_P: "",
             picture: "",
             name: "",
             age: "",
@@ -32,9 +32,9 @@ class NewBadge extends React.Component{
         event.preventDefault();
         this.setState({loading:true, error:null})
         try{
-            await api.badge.create(this.state.form)
+            await api.badges.create(this.state.form)
             this.setState({loading:false, error:null})
-            this.props.history.push("/")
+            this.props.history.push("/bdgs")
         }catch(error){
             this.setState({loading:false, error: error})
         }
@@ -48,7 +48,7 @@ class NewBadge extends React.Component{
                     <div class="row">
                         <div className="col-6">
                             <Badge
-                                Header_p = {this.state.form.Header_p || "https://fondosmil.com/fondo/50457.jpg"}
+                                Header_p = {this.state.form.Header_P || "https://fondosmil.com/fondo/50457.jpg"}
                                 picture = {this.state.form.picture || "https://pm1.narvii.com/7678/43da254e801715662b2379bd2ed14b61d7429051r1-736-732v2_00.jpg"}
                                 name ={this.state.form.name || "Tyra Orlson"}
                                 age= {this.state.form.age || "25"}

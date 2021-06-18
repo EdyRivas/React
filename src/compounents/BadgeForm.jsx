@@ -42,7 +42,7 @@ class BadgeForm extends React.Component{
                             className="form-control"
                             name="Header_P"
                             onChange={this.props.onChange}
-                            value={this.props.formValue.Header_P}
+                            value={this.props.formValue.Header_p}
                             />
                         </div>
 

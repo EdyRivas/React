@@ -6,6 +6,8 @@ import Login from "./pages/login/login"
 import Main from "./pages/main/Main.jsx" 
 import NewBadge from "./pages/NewBadge/NewBadge"  
 import Error_4 from './pages/Error.jsx';
+import Badges from './pages/Badges/Badjes'
+import BadgeDetails from "./compounents/BadgeDetails"
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
           <Route exact path="/new" component={NewBadge}></Route>
           <Route exact path="/log" component={Login}></Route>
           <Route exact path="/sign" component={Sing_up}></Route>
-          <Route exact path="/nani" component={Error_4}></Route>
+          <Route exact path="/bdgs" component={Badges}></Route>
+          <Route exact path= "/:badgeId" component={BadgeDetails}></Route>
+          <Route component={Error_4}></Route>
+          
         </Switch>
       </Layout>      
     </BrowserRouter>

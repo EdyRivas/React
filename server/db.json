@@ -1,5 +1,24 @@
 {
-    "badges":[
-        
-    ]
-}
+  "badges": [
+    {
+      "Header_p": "https://www.gotokyo.org/es/plan/tokyo-outline/images/main.jpg",
+      "picture": "https://cutewallpaper.org/21/tokyo-ghoul-profile-picture/Tokyo-Ghoul-kaneki.haise.tr-Instagram-Profile-Toopics.jpg",
+      "name": "EdgarRivas",
+      "age": "27",
+      "city": "chihuahua",
+      "followers": "",
+      "likes": "",
+      "post": "",
+      "id": 1
+    },
+    {
+      "Header_p": "https://png.pngtree.com/thumb_back/fw800/background/20190827/pngtree-brush-background-candy-colour-with-abstract-texture-image_307337.jpg",
+      "picture": "https://ath2.unileverservices.com/wp-content/uploads/sites/4/2020/02/IG-annvmariv-1024x1016.jpg",
+      "name": "Charlotte",
+      "age": "25",
+      "city": "Arisona",
+      "followers": "",
+      "likes": "",
+      "post": "",
+      "id": 2
+    }

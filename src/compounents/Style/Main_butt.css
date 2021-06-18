@@ -23,3 +23,28 @@
     color: rgb(255, 0, 0);
 }
 
+.Button-light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-top: 2em;
+    background-color: rgb(255, 0, 55);
+}
+
+.Button-light p{
+    color:  rgb(255, 255, 255);
+    font-size: 1.2em;
+    margin: 8px 60px;
+    padding-top: 5px;
+}
+
+.Button-light:hover{
+    background-color: rgb(255, 0, 221);
+    font-weight: bold;
+}
+.Button-light:hover p{
+    color: rgb(255, 0, 0);
+}
+
